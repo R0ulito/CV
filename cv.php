@@ -19,6 +19,7 @@
 	<div class="col-sm-offset-6 col-sm-3 col-xs-offset-5 col-xs-3">
 	<h3 class="text-center">06.62.47.82.51</h3>
 	<h5 class="text-center">julien.jovy@gmail.com</h5>
+	<h5 class="text-nowrap">Github : R0ulito</h5>
 	</div> 
 	<br> <!--regle un souci de centrage du titre suivant sur les écrans à petite largeur-->
 
@@ -138,6 +139,9 @@
 		<div class="col-xs-12">
 			<h3 id="pt" class="text-center">Réseau</h3>
 		</div>
+		</div>
+		<div class="row">
+
 		</div>
 
 	</div>
