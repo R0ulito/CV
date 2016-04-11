@@ -17,9 +17,9 @@
 		</p>		
 	</div>
 	<div class="col-sm-offset-6 col-sm-3 col-xs-offset-5 col-xs-3">
-	<h3 class="text-center">06.62.47.82.51</h3>
-	<h5 class="text-center">julien.jovy@gmail.com</h5>
-	<h5 class="text-nowrap">Github : R0ulito</h5>
+	<h3 class="push-right text-center">06.62.47.82.51</h3>
+	<h5 class="push-right text-center">julien.jovy@gmail.com</h5>
+	<h5 class="push-right text-nowrap">Github : R0ulito</h5>
 	</div> 
 	<br> <!--regle un souci de centrage du titre suivant sur les écrans à petite largeur-->
 
@@ -128,7 +128,7 @@
 				<h4 class="text-center hidden-md hidden-lg">VCS</h4>
 
 				Git
-				<div class="progress">
+				<div onclick="location.href='https://github.com/R0ulito';" style="cursor: help;" class="progress">
 					<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60%
 					</div>
 				</div>
@@ -141,6 +141,17 @@
 		</div>
 		</div>
 		<div class="row">
+			<div class="col-xs-4">
+				<h4>Administration</h4>
+
+				Matériels Cisco
+				<div class="progress">
+		  			<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 80%		    		
+		  			</div>
+				</div>
+
+				
+			</div>
 
 		</div>
 
