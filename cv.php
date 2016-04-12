@@ -129,7 +129,7 @@
 
 				Git
 				<div onclick="location.href='https://github.com/R0ulito';" style="cursor: help;" class="progress">
-					<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"> 60%
+					<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
 					</div>
 				</div>
 
@@ -141,16 +141,46 @@
 		</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-4">
-				<h4>Administration</h4>
+			<div class="col-xs-6">
+				<h4 class="text-center">Services</h4>
+				
+				Serveur DNS
+				<div class="progress">
+					<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 80%						
+					</div>
+				</div>
+
+				Serveur de messagerie
+				<div class="progress">
+		  			<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"> 70%		    		
+		  			</div>
+				</div>
+				Serveur Asterisk*
+				<div class="progress">
+					<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width : 75%"> 75%
+					</div>
+				</div>				
+			</div>
+
+			<div class="col-xs-6">
+				<h4 class="text-center">Administration</h4>
+
+				Calculs d'adressage
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width : 95%">95%
+					</div>	
+				</div>
 
 				Matériels Cisco
 				<div class="progress">
-		  			<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> 80%		    		
-		  			</div>
+					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width : 85%">85%
+					</div>	
 				</div>
-
-				
+				Active directory
+				<div class="progress">
+					<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width : 75%">75%
+					</div>
+				</div>
 			</div>
 
 		</div>
