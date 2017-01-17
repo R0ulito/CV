@@ -1,11 +1,19 @@
-/* Surcharge perso */
+/* Surcharge perso
+ Les titres sont gérés ligne 6985
+
+ */
 
 #cv {
-    background-color: #EEEEEE; 
+    background-color: rgba(238, 238, 238, 0.95);
     color: #222222;
     border:  2px solid #333333;
+    border-radius: 35px;
     padding: 20px;
   }
+#bodycv
+{
+  background-size: cover;
+}
   #gt {
     margin-top: 100px;
     border-bottom: 2px ridge #333333;
@@ -15,6 +23,15 @@
     border-bottom: 2px ridge #333333;
     padding: 20px;
     vertical-align: center;
+  }
+  #indic {
+      color : white;
+      background-color: rgba(0,0,0, 0.5);
+      border-radius: 12px;
+      padding: 3px;
+  }
+  #photo {
+      max-width: 50%;
   }
 
 /*!
@@ -73,7 +90,7 @@ a {
 }
 a:active,
 a:hover {
-  outline: 0;
+  outline: 5px;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -81,6 +98,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+  color : teal;
 }
 dfn {
   font-style: italic;
@@ -1206,7 +1224,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Consolas;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -6971,7 +6989,7 @@ h3,
 h4,
 h5,
 h6 {
-  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+  /*text-shadow: -20px -20px 30px rgba(241, 116, 70, 0.8);*/
 }
 .text-primary,
 .text-primary:hover {
