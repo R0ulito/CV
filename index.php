@@ -13,8 +13,8 @@
 <div class="row" style="height:100px;"></div>
 	<div class="row">
 		<div class="jumbotron col-xs-offset-2 col-xs-8 thumbnail" style="border:2px outset silver;">
-			<h2 class="text-capitalize col-lg-offset-1" id="anim">à propos</h2>
-			<p class="col-xs-offset-1">
+			<h2 class="text-capitalize col-lg-offset-1">à propos</h2>
+			<p class="col-xs-offset-1" id"anim">
 				Bonjour ! <br> 
 				Je m'appelle <strong>Julien Jovy</strong>.<br>
 				Passionné depuis toujours par l'informatique, je me suis inscrit au cursus de Technicien d'Assistance Informatique
