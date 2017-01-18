@@ -20,7 +20,7 @@
     padding: 15px;
   }
   #pt {
-    border-bottom: 2px ridge #333333;
+   /* border-bottom: 2px ridge #333333;*/
     padding: 20px;
     vertical-align: center;
   }

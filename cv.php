@@ -21,25 +21,28 @@
 
 <div id="cv" class="jumbotron col-xs-offset-1 col-xs-10 thumbnail">
 	<div class="row">
-	<div class="col-xs-4">
-		<p>
-		Julien Jovy <br>
-		Développeur en alternance <br>
-		Permis B <br>
-		0662478251 <br>
-		julien.jovy@gmail.com <br>
-		Github: <a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
-        <br>
-        Linkedin: <a target="_blank" href="https://fr.linkedin.com/in/julien-jovy-502455121">https://fr.linkedin.com/in/julien-jovy</a>
-		</p>		
-	</div>
-		<div>
-			<img class="col-xs-offset-4 col-xs-4" src="ressources/jovy.png" alt="" id="photo">
+		<div class="col-xs-4">
+			<p>
+			Julien Jovy <br>
+			Développeur en alternance <br>
+			Permis B <br>
+
+			</p>
+
+		</div>
+
+		<div >
+			<p class="col-xs-offset-4 col-xs-4">
+				0662478251 <br>
+				Github: <a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
+				<br>
+				Linkedin: <a target="_blank" href="https://fr.linkedin.com/in/julien-jovy-502455121">Julien Jovy</a>
+			</p>
+
+
 		</div>
 		
 	</div>
-	<br> <!--regle un souci de centrage du titre suivant sur les écrans à petite largeur-->
-
 
 
 	<div class="row">
@@ -129,7 +132,7 @@
 					</div>
 				</div>
 
-				Symphony
+				Symfony
 				<div class="progress active">
 					<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%"> In progress
 					</div>
