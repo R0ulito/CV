@@ -15,14 +15,15 @@
   background-size: cover;
 }
   #gt {
-    margin-top: 100px;
+    margin-top: 5%;
     border-bottom: 2px ridge #333333;
     padding: 15px;
   }
   #pt {
    /* border-bottom: 2px ridge #333333;*/
     padding: 20px;
-    vertical-align: center;
+    background-color: rgba(204, 204, 204, 0.7);
+    border-radius: 35px;
   }
   #indic {
       color : white;

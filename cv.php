@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.test.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
@@ -34,10 +35,12 @@
 		<div >
 			<p class="col-xs-offset-4 col-xs-4">
 				0662478251 <br>
-				Github: <a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
+				Github: <br class="hidden-md hidden-lg"><a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
 				<br>
-				Linkedin: <a target="_blank" href="https://fr.linkedin.com/in/julien-jovy-502455121">Julien Jovy</a>
+				Linkedin: <br class="hidden-md hidden-lg"> <a target="_blank" href="https://fr.linkedin.com/in/julien-jovy-502455121">Julien Jovy</a>
+
 			</p>
+
 
 
 		</div>
@@ -46,12 +49,12 @@
 
 
 	<div class="row">
-		<div class"col-xs-12">
+		<div class="col-xs-12">
 			<h1 id="gt" class="text-center">Compétences</h1>
 		</div>
 		<div class="row">
-		<div class="col-xs-12">
-			<h2 id="pt" class="text-center">Développement</h2>
+		<div class="text-center col-xs-offset-3 col-xs-6">
+			<h3 id="pt" class="text-center">Développement</h3>
 		</div>
 		</div>
 
@@ -157,7 +160,7 @@
 		</div>
 		<div class="row">
 		<div class="col-xs-12">
-			<h2 id="pt" class="text-center">Réseau</h2>
+			<h3 id="pt" class="text-center col-xs-offset-3 col-xs-6">Réseau</h3>
 		</div>
 		</div>
 		<div class="row">
