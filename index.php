@@ -12,7 +12,7 @@
 <?php include("menu.php"); ?>
 <div class="row" style="height:100px;"></div>
 	<div class="row">
-		<div class="jumbotron col-xs-offset-2 col-xs-8 thumbnail" style="border:2px outset silver;">
+		<div class="jumbotron col-xs-offset-2 col-xs-8 thumbnail" id="jumbodex">
 			<h2 class="text-capitalize col-lg-offset-1">à propos</h2>
 			<p class="col-xs-offset-1">
 				<br>
