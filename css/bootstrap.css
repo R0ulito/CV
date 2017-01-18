@@ -10,6 +10,11 @@
 #jumbodex {
   border:2px outset silver;
 }
+#jumbotai {
+  margin-top: 15%;
+  background-color: rgba(0,0,0,0.2);
+
+}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
