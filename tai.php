@@ -13,7 +13,7 @@
 </script>
 
 <div class="row">
-    <div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbotai">
+    <div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbocurs">
         <p class="col-xs-offset-1">
             Cette page contiendra la présentation de mon cursus en temps que technicien, que ce soit en freelance, ou en entreprise.
             <br>

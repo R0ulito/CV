@@ -7,9 +7,10 @@
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
+
 	<title>CV</title>
 </head>
-<body background="ressources/bg.jpg" style="" id="bodycv">
+<body background="ressources/1.jpg" id="bodycv">
 <?php include("menu.php") ?>
 
 <script>
@@ -19,7 +20,7 @@
 
 <div class="row" style="height: 50px">
 	<div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 text-center" >
-		<p id="indic">Certaines barres sont cliquables, et mènent à des réalisations.</p>
+		<p id="indic"></p>
 	</div>
 
 </div>
@@ -52,31 +53,30 @@
 		
 	</div>
 
-
-	<div class="row">
+		<div class="row">
 		<div class="col-xs-12">
 			<h1 id="gt" class="text-center">Compétences</h1>
 		</div>
 		<div class="row">
 		<div class="text-center col-xs-offset-3 col-xs-6">
-			<h3 id="pt" class="text-center">Développement</h3>
+			<h3 class="pt pt1 text-center">Développement</h3>
 		</div>
 		</div>
 
 
-		<div class="row">
+		<div class="row hiderow hiderow1">
 			<div class="col-xs-4">
 
 			<h4 class="text-center">Langages <br class="hidden-md hidden-lg">  Web</h4>
 
 			HTML
-				<div onclick="location.href='http://julienjovy.free.fr/greta/tp/web';" style="cursor: help;" class="progress">
-		  			<div id="90bar" class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
+				<div onclick="window.open('http://julienjovy.free.fr/greta/tp/web');" style="cursor: help;" class="progress">
+		  			<div class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
 		  			</div>
 				</div>
 
 				CSS
-				<div onclick="location.href='http://julienjovy.free.fr/greta/tp/web';" style="cursor: help;" class="progress">
+				<div onclick="window.open('http://julienjovy.free.fr/greta/tp/web');" style="cursor: help;" class="progress">
 		  			<div class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
 		  			</div>
 				</div>
@@ -135,7 +135,7 @@
 				<h4 class="text-center"> Frameworks <br class="hidden-md hidden-lg">/ CMS</h4>
 
 				Bootstrap
-				<div onclick="location.href='http://prima.acies.free.fr'" style="cursor: help;" class="progress">
+				<div onclick="window.open('http://prima.acies.free.fr');" style="cursor: help;" class="progress">
 					<div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%"> 75%
 					</div>
 				</div>
@@ -165,10 +165,10 @@
 		</div>
 		<div class="row">
 		<div class="col-xs-12">
-			<h3 id="pt" class="text-center col-xs-offset-3 col-xs-6">Réseau</h3>
+			<h3 class="text-center pt pt2 col-xs-offset-3 col-xs-6">Réseau</h3>
 		</div>
 		</div>
-		<div class="row">
+		<div class="row hiderow hiderow2">
 			<div class="col-xs-6">
 				<h4 class="text-center">Services</h4>
 
@@ -219,6 +219,8 @@
 
 
 </div>
+
+<script src="js/progressbar.js"></script>
 
 </body>
 </html>

@@ -4,7 +4,7 @@
     <?php include ('header.php')?>
     <title></title>
 </head>
-<body>
+<body background="ressources/1.jpg" style="background-repeat: no-repeat; *-background-size: cover">
 <?php include ('menu.php')?>
 
 <script>
