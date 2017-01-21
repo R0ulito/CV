@@ -12,6 +12,11 @@
 <body background="ressources/bg.jpg" style="" id="bodycv">
 <?php include("menu.php") ?>
 
+<script>
+	var classe = document.getElementById('comp');
+	classe.setAttribute('class', 'active');
+</script>
+
 <div class="row" style="height: 50px">
 	<div class="col-md-4 col-md-offset-4 col-xs-6 col-xs-offset-3 text-center" >
 		<p id="indic">Certaines barres sont cliquables, et mènent à des réalisations.</p>
@@ -66,7 +71,7 @@
 
 			HTML
 				<div onclick="location.href='http://julienjovy.free.fr/greta/tp/web';" style="cursor: help;" class="progress">
-		  			<div class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
+		  			<div id="90bar" class="progress-bar progress-bar-success progress-bar-striped " role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 90%"> 90%
 		  			</div>
 				</div>
 

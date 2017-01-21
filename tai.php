@@ -7,6 +7,11 @@
 <body>
 <?php include ('menu.php')?>
 
+<script>
+    var classe = document.getElementById('cursus');
+    classe.setAttribute('class', 'active');
+</script>
+
 <div class="row">
     <div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbotai">
         <p class="col-xs-offset-1">

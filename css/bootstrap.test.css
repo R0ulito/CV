@@ -22,8 +22,9 @@
   #pt {
    /* border-bottom: 2px ridge #333333;*/
     padding: 20px;
-    background-color: rgba(204, 204, 204, 0.7);
+    background-color: rgba(204, 204, 204, 0.5);
     border-radius: 35px;
+    /*background-image: url('http://julienjovy.free.fr/portfolio/ressources/denim.PNG') ;*/
   }
   #indic {
       color : white;
@@ -33,6 +34,10 @@
   }
   #photo {
       max-width: 50%;
+  }
+
+  #linkcv {
+    color : inherit;
   }
 
 /*!
@@ -55,6 +60,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 article,
 aside,
@@ -5187,9 +5193,11 @@ a.thumbnail.active {
   background-color: #7a8288;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: width 0.6s ease;
+  /*-webkit-transition: width 0.6s ease;*/
+  -webkit-transition: none !important;
+  transition: none !important;
   -o-transition: width 0.6s ease;
-  transition: width 0.6s ease;
+  /*transition: width 0.6s ease;*/
 }
 .progress-striped .progress-bar,
 .progress-bar-striped {

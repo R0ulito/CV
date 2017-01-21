@@ -8,6 +8,10 @@
 </head>
 <body>
 <?php include("menu.php"); ?>
+<script>
+	var classe= document.getElementById('accueil');
+	classe.setAttribute('class', 'active');
+</script>
 <!--<div class="row" style="height:100px;"></div>-->
 	<div class="row">
 		<div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbodex">
