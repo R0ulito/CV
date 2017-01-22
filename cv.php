@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.test.css">
+	<link id="swlink" rel="stylesheet" type="text/css" href="css/bootstrap.test.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -219,8 +219,26 @@
 
 
 </div>
+<div class="row">
+	<div class="col-md-offset-4 col-md-4">
+		<button id="swcss" class="btn btn-primary center-block">Permuter les styles</button>
+
+	</div>
+
+
+
+</div>
 
 <script src="js/progressbar.js"></script>
+
+<script>
+	$('#swcss').click(function(){
+		var valeurs = ['css/bootstrap.test2.css', 'css/bootstrap.test.css'];
+		toggleAttr($('#swlink'), 'href', valeurs);
+	})
+</script>
+
+
 
 </body>
 </html>
