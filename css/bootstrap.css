@@ -11,17 +11,20 @@
   border: 2px solid teal;
   margin-top: 15%;
   background-color: rgba(0,0,0,0.8);
-  border-radius: 100px 100px 100px 100px;
+  border-radius: 50px;
 }
 #jumbotai {
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.85);
-  border-radius: 100px 100px 100px 100px;
+  border-radius: 50px;
   border: 2px solid teal;
 }
 #jumbocurs {
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 50px;
+  border: 2px solid teal;
+  padding 50px;
 }
 html {
   font-family: sans-serif;

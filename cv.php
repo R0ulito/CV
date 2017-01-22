@@ -58,8 +58,8 @@
 			<h1 id="gt" class="text-center">Compétences</h1>
 		</div>
 		<div class="row">
-		<div class="text-center col-xs-offset-3 col-xs-6">
-			<h3 class="pt pt1 text-center">Développement</h3>
+		<div class="col-xs-12">
+			<h3 class="col-xs-offset-3 col-xs-6 pt pt1 text-center">Développement</h3>
 		</div>
 		</div>
 

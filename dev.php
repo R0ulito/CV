@@ -4,7 +4,7 @@
     <?php include ('header.php')?>
     <title>Réalisations Dev</title>
 </head>
-<body>
+<body background="ressources/1.jpg" style="background-repeat: no-repeat; *-background-size: cover">
 <?php include ('menu.php') ?>
 
 <script>
@@ -14,7 +14,7 @@
 
 <div class="row">
     <div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbocurs">
-        <p> Cette page contiendra la présentation de mes diverses réalisations en tant que développeur.
+        <p class="col-xs-offset-1"> Cette page contiendra la présentation de mes diverses réalisations en tant que développeur.
             <br><br>
             J'essaierais à termes d'y implanter un mini-jeu pour montrer mes compétences en Javascript et Jquery.
         </p>
