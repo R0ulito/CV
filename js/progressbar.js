@@ -36,17 +36,6 @@ $(document).ready(function(){
         $('.hiderow2').slideToggle(1200);
 
     })
-    
-    /*$('#swcss').click(function() {
-        $('#swlink').attr('href', "css/bootstrap.test2.css");
-        $('#swcss').text('Mettre le CV sur fond noir').attr('id', 'swcss2');
-    })
-
-    $('#swcss2').click(function(){
-        $('#swlink').attr('href', 'css/bootstrap.test.css');
-        $('#swcss2').text('Mettre le CV sur fond blanc').attr('id', 'swcss');
-
-    })*/
 
 
 
