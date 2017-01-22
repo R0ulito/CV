@@ -4,40 +4,34 @@
  */
 
 #cv {
-    background-color: rgba(238, 238, 238, 0.95);
-    color: #222222;
-    border:  2px solid #333333;
+    background-color: rgba(0, 0, 0, 0.9);
+    border:  2px solid teal;
     border-radius: 35px;
     padding: 20px;
   }
 #bodycv
 {
   *-background-size: cover;
-  /*background-size: 100%;*/
   background-repeat: no-repeat;
 }
-.nomprog {
-  float: left;
-  padding-left: 5px;
-}
   #gt {
-    margin-top: 5%;
     border-bottom: 2px ridge #333333;
     padding: 15px;
   }
   .pt {
-   /* border-bottom: 2px ridge #333333;*/
     padding: 20px;
     background-color: rgba(204, 204, 204, 0.5);
+    border: 2px solid teal;
     border-radius: 35px;
     cursor: pointer;
-    /*background-image: url('http://julienjovy.free.fr/portfolio/ressources/denim.PNG') ;*/
   }
   #indic {
       color : #222222;
       background-color: rgba(238, 238, 238, 0.95);
       border-radius: 12px;
       padding: 3px;
+      font-weight: bold;
+      font-size: 120%;
   }
   #photo {
       max-width: 50%;
