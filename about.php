@@ -2,9 +2,9 @@
 <html>
 <head>
     <?php include ('header.php')?>
-    <title></title>
+    <title>A propos de moi</title>
 </head>
-<body background="ressources/1.jpg" style="background-repeat: no-repeat; *-background-size: cover">
+<body class="backgrd">
 <?php include ('menu.php')?>
 
 <script>

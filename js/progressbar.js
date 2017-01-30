@@ -6,9 +6,9 @@
 
         entretien = poste.apply
 
-        while (entretien) {
+        while (contratPro) {
 
-            moi.append('')
+            moi.append('competences')
 
         }
     }
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     $('.pt').hide();
     $('.pt').fadeIn(200);
-    $('#indic').text('Cliquez sur les sous-titres pour dévoiller les compétences')
+    $('#indic').text('Cliquez sur les sous-titres pour dévoiler les compétences')
 
 
 
@@ -48,6 +48,19 @@ function toggleAttr (element, attribut, valeurs){
     {
         $(element).attr(attribut, valeurs[0]);
     }
+}
+
+function frameLooper(text, id) {
+    var myString = text;
+    var myArray = myString.split("");
+    var loopTimer;
+    if(myArray.length > 0) {
+        document.getElementById(id).innerHTML += myArray.shift();
+    } else {
+        clearTimeout(loopTimer);
+        return false;
+    }
+    loopTimer = setTimeout('frameLooper()',70);
 }
 
 

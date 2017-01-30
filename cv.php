@@ -4,13 +4,13 @@
 	<meta charset="utf-8"/>
 	<link id="swlink" rel="stylesheet" type="text/css" href="css/bootstrap.test.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 	<title>CV</title>
 </head>
-<body background="ressources/1.jpg" id="bodycv">
+<body id="bdcv">
 <?php include("menu.php") ?>
 
 <script>
@@ -114,7 +114,7 @@
 				</div>
 
 				Python
-				<div onclick="location.href='python';" style="cursor: help;" class="progress">
+				<div onclick="location.href='indexpyth.php';" style="cursor: help;" class="progress">
 					<div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%"> 50%
 					</div>
 				</div>
@@ -156,7 +156,7 @@
 				<h4 class="text-center hidden-md hidden-lg">VCS</h4>
 
 				Git
-				<div onclick="location.href='https://github.com/R0ulito';" style="cursor: help;" class="progress">
+				<div onclick="window.open('https://github.com/R0ulito')" style="cursor: help;" class="progress">
 					<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%"> 70%
 					</div>
 				</div>
@@ -220,7 +220,7 @@
 
 </div>
 <div class="row">
-	<div class="col-md-offset-4 col-md-4">
+	<div class="hidden-md hidden-sm hidden-xs col-md-offset-4 col-md-4">
 		<button id="swcss" class="btn btn-primary center-block">Permuter les styles</button>
 
 	</div>

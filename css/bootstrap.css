@@ -7,22 +7,28 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+
+.backgrd {
+  background-image: url(http://julienjovy.free.fr/portfolio/ressources/1.jpg) ;
+  background-repeat: no-repeat; 
+  *-background-size: cover;
+}
 #jumbodex {
   border: 2px solid teal;
   margin-top: 15%;
   background-color: rgba(0,0,0,0.8);
-  border-radius: 50px;
+  border-radius: 25px;
 }
 #jumbotai {
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.85);
-  border-radius: 50px;
+  border-radius: 25px;
   border: 2px solid teal;
 }
 #jumbocurs {
   margin-top: 10%;
   background-color: rgba(0, 0, 0, 0.85);
-  border-radius: 50px;
+  border-radius: 25px;
   border: 2px solid teal;
   padding 50px;
 }

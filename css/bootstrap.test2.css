@@ -4,26 +4,28 @@
  */
 
 #cv {
-    background-color: rgba(0, 0, 0, 0.9);
-    border:  2px solid teal;
+    background-color: rgba(238, 238, 238, 0.95);
+    color: #222222;
+    border:  2px solid #333333;
     border-radius: 35px;
     padding: 20px;
   }
 #bdcv
 {
-  background-image: url(http://julienjovy.free.fr/portfolio/ressources/1.jpg) ;
-  *-background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(http://julienjovy.free.fr/portfolio/ressources/1.jpg) ;
+    *-background-size: cover;
+    background-repeat: no-repeat;
 }
   #gt {
-    border-bottom: 2px ridge teal;
+    border-bottom: 2px ridge #333333;
     padding: 15px;
   }
-.pt {
-  padding: 20px;
+  .pt {
+    padding: 20px;
     background-color: rgba(204, 204, 204, 0.5);
-    border: 2px solid teal;
     border-radius: 35px;
+    /* border: 2px solid rgba(204, 204, 204, 0.3); */
+    border: 2px solid rgba(51,51,51, 0.3);
     cursor: pointer;
   }
   #indic {
@@ -5179,8 +5181,7 @@ a.thumbnail.active {
   overflow: hidden;
   height: 20px;
   margin-bottom: 20px;
-  background: rgb(198, 198, 198);
-  /* background-color: #1c1e22; */
+  background-color: #1c1e22;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);

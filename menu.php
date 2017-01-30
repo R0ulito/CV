@@ -1,3 +1,6 @@
+
+<!-- Barre de navigation -->
+
 <nav class="navbar navbar-default fixed-top">
 	<div class="navbar-header">
 		<a class="navbar-brand text-uppercase" href="#"></a>
@@ -17,3 +20,5 @@
 		<li id="comp"><a href="cv.php">Mes compétences</a></li>
 	</ul>
 </nav>
+
+<!-- ------------------- -->
