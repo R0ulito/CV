@@ -11,4 +11,4 @@
 <meta property="og:image" content="http://julienjovy.free.fr/portfolio/ressources/1.jpg"/>
 <meta property="og:description" content="Bienvenue sur mon portfolio, qui me sert également de Site-CV. Ici toutes les infos nécessaires pour me contacter"/>
 
-<!-- ---------------- -->
+<!--                 -->

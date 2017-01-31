@@ -1,5 +1,5 @@
 
-<!-- Barre de navigation -->
+<!--   Barre de navigation   -->
 
 <nav class="navbar navbar-default fixed-top">
 	<div class="navbar-header">
@@ -21,4 +21,4 @@
 	</ul>
 </nav>
 
-<!-- ------------------- -->
+<!-- Fin barre de navigation -->
