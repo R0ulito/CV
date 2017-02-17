@@ -12,6 +12,8 @@
     classe.setAttribute('class', 'active');
 </script>
 
+
+<!--
 <div class="row">
     <div class="jumbotron col-xs-offset-2 col-xs-8" id="jumbocurs">
         <p class="col-xs-offset-1"> Cette page contiendra la présentation de mes diverses réalisations en tant que développeur.
@@ -22,6 +24,10 @@
 
 
 </div>
+
+-->
+
+<section class="text-center"> /!\ Page en cours de construction  /!\ </section>
 
 </body>
 </html>

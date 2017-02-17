@@ -41,9 +41,9 @@
 		<div >
 			<p class="col-xs-offset-4 col-xs-4 text-right">
 				0662478251 <br>
-				Github: <!--<br class="hidden-md hidden-lg">--><a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
+				Github: <a target="_blank" href="https://github.com/R0ulito">R0ulito</a>
 				<br>
-				Linkedin: <!--<br class="hidden-md hidden-lg">--> <a target="_blank" href="https://fr.linkedin.com/in/julien-jovy-502455121">Julien Jovy</a>
+				Linkedin: <a target="_blank" href="https://fr.linkedin.com/in/julienjovy">Julien Jovy</a>
 
 			</p>
 
